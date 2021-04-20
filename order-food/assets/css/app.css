@@ -1,0 +1,19 @@
+/*Utils*/
+@import url('reset.css');
+@import url('general.css');
+@import url('fonts.css');
+@import url('font-awesome.css');
+@import url('general.css');
+@import url('colors.css');
+
+
+/*Plugins*/
+@import url('carousel/owl.carousel.css');
+
+/*Layouts*/
+@import url('layout/header.css');
+@import url('layout/carousel.css');
+@import url('layout/about_us.css');
+@import url('layout/menu.css');
+@import url('layout/contact_us.css');
+@import url('layout/footer.css');

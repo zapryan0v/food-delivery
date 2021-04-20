@@ -1,0 +1,63 @@
+.contact {
+  margin-top: 30px;
+}
+
+.contact-title {
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'robotoblack';
+}
+
+.contact-form {
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.contact-title h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color: #e30b5d;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 688px) {
+  .form-control {
+    width: 100%;
+    max-width: 330px;
+  }
+}

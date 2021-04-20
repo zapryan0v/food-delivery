@@ -1,0 +1,65 @@
+.footer-content {
+    margin-top: 20px;
+    font-family: 'robotoblack';
+}
+
+.footer-content h3 {
+    font-size: 20px;
+    color:gray;
+    margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-content ul li a:hover {
+    color: #000;
+}
+
+.footer-content .address::before {
+    content: "\f041";
+    font-family: 'Font Awesome';
+    color: #787878;
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-content .phone-no::before {
+    content: "\f095";
+    font-family: 'Font Awesome';
+    color: #787878;
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-content .email::before {
+    content: "\f003";
+    font-family: 'Font Awesome';
+    color: #787878;
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.social ul li a {
+    display: inline-block;
+}
+.social li a i {
+    font-family: 'Font Awesome';
+    font-size: 20px;
+    line-height: 28px;
+}
+
+@media only screen and (max-width: 688px) {
+    .col-size-6of12 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
