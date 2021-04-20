@@ -67,14 +67,6 @@
 }
 
 .about_us,
-.contact_us {
-	font-family: 'robotoblack';
-	text-align: center;
-	margin-top: 20px;
-	color: #7f90a5;
-}
-
-.about_us,
 .contact_us span {
 	font-size: 16px;
 	text-transform: uppercase;
