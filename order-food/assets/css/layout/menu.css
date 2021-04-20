@@ -81,7 +81,6 @@ button:hover, button.active {
     box-shadow: 0 0 3px 3px #ebebeb;
 	transition: 1s;
 	transform: scale(1);
-	
 }
 
 .menu:hover img {
