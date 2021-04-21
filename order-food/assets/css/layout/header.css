@@ -30,7 +30,7 @@
 
 .header-inner .nav .nav-ul {
 	display: flex;
-	padding: 0;
+	padding: 0 50px 0 0;
 }
 
 .header-inner .nav .nav-ul li a {
@@ -91,7 +91,7 @@
 
 	.header-inner .nav .hamburger {
 		display: block;
-		padding-right: 50px;
+		padding-right: 75px;
 	}
 
 	.container {

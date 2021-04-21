@@ -7,13 +7,13 @@
 
 .about_us p {
 	text-align: center;
-	font-family: 'robotoblack';
 	font-size: 14px;
 	color: #7f90a5;
 }
 
 @media only screen and (max-width: 688px) {
   .about_us p {
-  	padding-right: 20px;
+  		padding-right: 20px;
+  		font-size: 12px;
   }
 }
